@@ -1,7 +1,7 @@
 
 # HACKTOBERFEST 2022
 
-Encode App-Dev is a open source project which contains different projects of Application develoment, Android development, IOS development, Flutter, Kotlin, Dart, Java, Swift etc. which makes your it easier for the students to learn and explore different projects in the field of App development and its related fields. You can submit your projects or raise/claim issues on existing projects.
+Encode App-Dev is a open source project which contains different projects of Application development, Android development, IOS development, Flutter, Kotlin, Dart, Java, Swift etc. which makes your it easier for the students to learn and explore different projects in the field of App development and its related fields. You can submit your projects or raise/claim issues on existing projects.
 
 
 ## Introduction
