@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AppS/Dustbin/app/src/main/res/drawable/ic_artboard_1_copy.xml" value="0.1" />
+        <entry key="..\:/AppS/Dustbin/app/src/main/res/drawable/ic_artboard_1_copy_3.xml" value="0.1" />
+        <entry key="..\:/AppS/Dustbin/app/src/main/res/drawable/ic_baseline_agriculture_24.xml" value="0.22083333333333333" />
+        <entry key="..\:/AppS/Dustbin/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.22083333333333333" />
+        <entry key="..\:/AppS/Dustbin/app/src/main/res/drawable/ic_baseline_delete_24_b.xml" value="0.22083333333333333" />
+        <entry key="..\:/AppS/Dustbin/app/src/main/res/drawable/ic_baseline_delete_24_c.xml" value="0.10572916666666667" />
+        <entry key="..\:/AppS/Dustbin/app/src/main/res/drawable/ic_baseline_delete_24_green.xml" value="0.22083333333333333" />
+        <entry key="..\:/AppS/Dustbin/app/src/main/res/layout/activity_dustbin.xml" value="0.20052083333333334" />
+        <entry key="..\:/AppS/Dustbin/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AppS/Dustbin/app/src/main/res/layout/activity_temp.xml" value="0.20052083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
