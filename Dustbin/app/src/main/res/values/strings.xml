@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dustbin</string>
+    <string name="google_map_key">YOUR_API_KEY</string>
+    <string name="find">Find</string>
+</resources>
