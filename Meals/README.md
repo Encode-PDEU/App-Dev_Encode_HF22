@@ -1,10 +1,14 @@
-# Meals
+<h1 align="center" style="border-bottom: none;">🎂 Meals App</h1>
 
-A new Flutter project.
+<h3 align="center">A Flutter Application with an advanced features containing recepies of different Food and snacks </h3>
 
-## Getting Started
+<h1 align="center"> Getting Started </h1>
 
-This project is a starting point for a Flutter application.
+This Flutter Application is in intitial stage of its development with a limited features  
+
+There are many features still under development:
+- Add Recepies by the client as well as owner
+= test 
 
 A few resources to get you started if this is your first Flutter project:
 
