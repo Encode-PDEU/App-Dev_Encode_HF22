@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'quiz_brain.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
-
+import 'screens/quiz.dart';
 QuizBrain questionBank = QuizBrain();
 
 void main() => runApp(MyApp());
@@ -11,16 +11,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.grey.shade900,
-        body: SafeArea(
-          child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 10.0),
-            child: QuizPage(),
-          ),
-        ),
-      ),
+    return const MaterialApp(
+      home: QuizPages()
     );
   }
 }
