@@ -24,14 +24,13 @@ class _QuizPagesState extends State<QuizPages> {
       body: ListView(
         children: [
           Container(
-            height: 150,
+            height: 170,
             width: 200,
-            margin: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
-            decoration: const BoxDecoration(
-              color: Colors.blue,
+            margin: EdgeInsets.symmetric(horizontal: 40, vertical: 30),
+            decoration: BoxDecoration(
+              color: Colors.lightBlue.shade100,
               borderRadius: BorderRadius.all(Radius.circular(20)),
             ),
-            padding: const EdgeInsets.all(20),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
@@ -45,13 +44,19 @@ class _QuizPagesState extends State<QuizPages> {
                   ),
                 ),
                 Container(
-                    child: const Text(
-                  'Create tour Own Quiz',
-                )),
-                TextButton(
+                  child: const Text(
+                      'Create your own Quiz \n Play with your friends',
+                      style: TextStyle(
+                        fontSize: 15,
+                      )),
+                ),
+                ElevatedButton(
                   onPressed: () {},
-                  child: Text('Test'),
-                  style: TextButton.styleFrom(
+                  child: Text('Create'),
+                  style: ElevatedButton.styleFrom(
+                    shape: StadiumBorder(),
+                    minimumSize: Size(110, 30),
+                    maximumSize: Size(120, 70),
                     backgroundColor: Colors.white,
                     foregroundColor: Colors.black,
                   ),
