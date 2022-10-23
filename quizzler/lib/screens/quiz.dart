@@ -10,9 +10,9 @@ class QuizPages extends StatefulWidget {
 class _QuizPagesState extends State<QuizPages> {
   Widget gameTile(String field1, String field2, String field3) {
     return Container(
-      height: 170,
+      height: 240,
       width: 200,
-      margin: const EdgeInsets.symmetric(horizontal: 40, vertical: 30),
+      margin: const EdgeInsets.fromLTRB(40, 20, 40, 10),
       decoration: BoxDecoration(
         color: Colors.lightBlue.shade100,
         borderRadius: const BorderRadius.all(Radius.circular(20)),
@@ -49,26 +49,36 @@ class _QuizPagesState extends State<QuizPages> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.indigo,
-      appBar: AppBar(
+    return SafeArea(
+      child: Scaffold(
         backgroundColor: Colors.indigo,
-        title: const Text(
-          'Quizzing!',
-          style: TextStyle(
-            fontSize: 40,
+        appBar: AppBar(
+          backgroundColor: Colors.indigo,
+          title: const Text(
+            'Quizzing!',
+            style: TextStyle(
+              fontSize: 40,
+            ),
           ),
         ),
-      ),
-      body: ListView(
-        children: [
-          gameTile('Create a Quiz',
-              'Create your own Quiz \n Play with your friends', 'Create'),
-          gameTile(
-              'Play With Friends',
-              'Invite your fiends \n Compete and win together',
-              'Invite Friends'),
-        ],
+        body: ListView(
+          children: [
+            gameTile('Create a Quiz',
+                'Create your own Quiz \n Play with your friends', 'Create'),
+            gameTile(
+                'Play With Friends',
+                'Invite your fiends \n Compete and win together',
+                'Invite Friends'),
+            gameTile(
+                'Play With Friends',
+                'Invite your fiends \n Compete and win together',
+                'Invite Friends'),
+            gameTile(
+                'Play With Friends',
+                'Invite your fiends \n Compete and win together',
+                'Invite Friends'),
+          ],
+        ),
       ),
     );
   }
