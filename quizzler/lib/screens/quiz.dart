@@ -8,7 +8,49 @@ class QuizPages extends StatefulWidget {
 }
 
 class _QuizPagesState extends State<QuizPages> {
-  Widget gameTile(String field1, String field2, String field3) {
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.indigo,
+        appBar: AppBar(
+          backgroundColor: Colors.indigo,
+          title: const Text(
+            'Quizzing!',
+            style: TextStyle(
+              fontSize: 40,
+            ),
+          ),
+        ),
+        body: ListView(
+          children: const [
+             GameTile(field1: 'Create a Quiz',
+                field2: 'Create your own Quiz \n Play with your friends',
+                field3: 'Create'),
+             GameTile(
+                field1: 'Play With Friends',
+                field2: 'Invite your fiends \n Compete and win together',
+                field3: 'Invite Friends'),
+            GameTile(
+                field1: 'Play With Friends',
+                field2: 'Invite your fiends \n Compete and win together',
+                field3: 'Invite Friends'),
+            GameTile(
+                field1: 'Play With Friends',
+                field2: 'Invite your fiends \n Compete and win together',
+                field3: 'Invite Friends'),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class GameTile extends StatelessWidget {
+  final String field1, field2, field3;
+  const GameTile({super.key, required this.field1, required this.field2, required this.field3});
+  @override
+  Widget build(BuildContext context) {
     return Container(
       height: 240,
       width: 200,
@@ -43,42 +85,6 @@ class _QuizPagesState extends State<QuizPages> {
               ),
               child: Text(field3)),
         ],
-      ),
-    );
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        backgroundColor: Colors.indigo,
-        appBar: AppBar(
-          backgroundColor: Colors.indigo,
-          title: const Text(
-            'Quizzing!',
-            style: TextStyle(
-              fontSize: 40,
-            ),
-          ),
-        ),
-        body: ListView(
-          children: [
-            gameTile('Create a Quiz',
-                'Create your own Quiz \n Play with your friends', 'Create'),
-            gameTile(
-                'Play With Friends',
-                'Invite your fiends \n Compete and win together',
-                'Invite Friends'),
-            gameTile(
-                'Play With Friends',
-                'Invite your fiends \n Compete and win together',
-                'Invite Friends'),
-            gameTile(
-                'Play With Friends',
-                'Invite your fiends \n Compete and win together',
-                'Invite Friends'),
-          ],
-        ),
       ),
     );
   }
