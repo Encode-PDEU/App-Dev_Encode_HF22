@@ -12,9 +12,7 @@ class _QuizPagesState extends State<QuizPages> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.indigo,
         appBar: AppBar(
-          backgroundColor: Colors.indigo,
           title: const Text(
             'Quizzing!',
             style: TextStyle(
