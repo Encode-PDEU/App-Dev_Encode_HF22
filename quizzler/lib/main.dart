@@ -11,7 +11,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
+      theme: ThemeData.light().copyWith(
+          colorScheme: ColorScheme.fromSwatch().copyWith(
+            primary: Color(0xFF3F51B5),
+          ),
+        scaffoldBackgroundColor: const Color(0xFF3F51B5)
+      ),
       home: QuizPages()
     );
   }
