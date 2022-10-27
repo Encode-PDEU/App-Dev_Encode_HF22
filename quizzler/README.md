@@ -1,16 +1,15 @@
-# quizzler
+<h1 align="center" style="border-bottom: none;">✔ Quizzler</h1>
 
-A new Flutter project.
+<h1 align="center"> Introduction: </h2>
+<h3 align="center">A Quiz Flutter Application that has an excellent features of secure and fun quizes. </h3><br>
 
-## Getting Started
+<h1 align="center">: Getting Started</h2>
 
-This project is a starting point for a Flutter application.
+This quiz application is build with Material UI that has some excellent features and security.
 
-A few resources to get you started if this is your first Flutter project:
+<h2>✔ There are many features still under development: </h2>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- To create a quiz application with some advance features
+- create security based quiz evalation parameters
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+HELP US BY STARRING THE REPOSITORY.
