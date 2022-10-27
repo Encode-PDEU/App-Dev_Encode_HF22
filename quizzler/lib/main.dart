@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'quiz_brain.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import 'screens/quiz.dart';
+import 'screens/participate.dart';
 QuizBrain questionBank = QuizBrain();
 
 void main() => runApp(MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
             ),
             scaffoldBackgroundColor: const Color(0xFF3F51B5)
         ),
-      home: QuizPages()
+      home: Participate()
     );
   }
 }
