@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'quiz_brain.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import 'screens/quiz.dart';
-
+import 'screens/participate.dart';
 QuizBrain questionBank = QuizBrain();
 int selectedIndex=0;
 
@@ -65,6 +65,7 @@ class _MyAppState extends State<MyApp> {
             onTap: onItemTapped,
           ),
         ),
+      home: QuizPages()
       ),
     );
   }
