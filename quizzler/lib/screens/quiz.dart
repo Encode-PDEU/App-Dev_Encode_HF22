@@ -10,22 +10,18 @@ class QuizPages extends StatefulWidget {
 class _QuizPagesState extends State<QuizPages> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            'Quizzing!',
-            style: TextStyle(
-              fontSize: 40,
-            ),
-          ),
-        ),
-        body: ListView(
+    return ListView(
           children: const [
-             GameTile(field1: 'Create a Quiz',
+            Text('Quizzing!',
+                style: TextStyle(
+                    fontSize: 40,
+                    color: Colors.white,
+                    fontWeight: FontWeight.w600)),
+            GameTile(
+                field1: 'Create a Quiz',
                 field2: 'Create your own Quiz \n Play with your friends',
                 field3: 'Create'),
-             GameTile(
+            GameTile(
                 field1: 'Play With Friends',
                 field2: 'Invite your fiends \n Compete and win together',
                 field3: 'Invite Friends'),
@@ -38,15 +34,17 @@ class _QuizPagesState extends State<QuizPages> {
                 field2: 'Invite your fiends \n Compete and win together',
                 field3: 'Invite Friends'),
           ],
-        ),
-      ),
-    );
+        );
   }
 }
 
 class GameTile extends StatelessWidget {
   final String field1, field2, field3;
-  const GameTile({super.key, required this.field1, required this.field2, required this.field3});
+  const GameTile(
+      {super.key,
+      required this.field1,
+      required this.field2,
+      required this.field3});
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -70,7 +68,7 @@ class GameTile extends StatelessWidget {
           Text(field2,
               textAlign: TextAlign.center,
               style: const TextStyle(
-                fontSize: 15,
+                fontSize: 20,
               )),
           ElevatedButton(
               onPressed: () {},
@@ -81,7 +79,13 @@ class GameTile extends StatelessWidget {
                 backgroundColor: Colors.white,
                 foregroundColor: Colors.black,
               ),
-              child: Text(field3)),
+              child: Text(
+                field3,
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 18,
+                ),
+              )),
         ],
       ),
     );
