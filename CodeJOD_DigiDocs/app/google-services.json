@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728444574522",
+    "project_id": "digi-docs",
+    "storage_bucket": "digi-docs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728444574522:android:6126b6fbfd5c8b6b1b0e03",
+        "android_client_info": {
+          "package_name": "com.example.codejod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728444574522-c2il8mqmd10gpeu3mlj5ujmvah2fddds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCb6LMVNlia-mcPGgm6PpcI5ZP3iw7YW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728444574522-c2il8mqmd10gpeu3mlj5ujmvah2fddds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
